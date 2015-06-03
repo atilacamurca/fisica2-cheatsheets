@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="150"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="triangulo-retangulo.svg"
+   inkscape:export-filename="/home/comsolid/Documentos/fisica2-cheatsheets/img/triangulo-retangulo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8782524"
+     inkscape:cx="121.32911"
+     inkscape:cy="-14.393889"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-902.36218)">
+    <path
+       style="fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 40.008551,907.72544 0,116.97676 189.930329,0"
+       id="rect3001"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.56426311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.56426314, 1.56426314;stroke-dashoffset:0;marker-mid:none"
+       d="m 41.213231,931.39552 c 12.967775,3.3407 15.748242,-2.99131 14.29173,-13.34626"
+       id="path3772"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3954"
+       d="m 205.22044,1010.7667 c -12.96778,-3.3407 -15.74824,2.9913 -14.29173,13.3463"
+       style="fill:none;stroke:#000000;stroke-width:1.56426311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.56426314, 1.56426314;stroke-dashoffset:0;marker-mid:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3960"
+       y="955.09747"
+       x="131.80759"
+       style="font-size:22.36032677px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="955.09747"
+         x="131.80759"
+         id="tspan3962"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3968"
+       y="945.96826"
+       x="54.855648"
+       style="font-size:18.75711823px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="945.96826"
+         x="54.855648"
+         id="tspan3970"
+         sodipodi:role="line">𝜶</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.75711823px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="170.57478"
+       y="1015.1479"
+       id="text3972"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3974"
+         x="170.57478"
+         y="1015.1479">𝜽</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.36032677px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="127.47296"
+       y="1046.6823"
+       id="text3976"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3978"
+         x="127.47296"
+         y="1046.6823">b</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3980"
+       y="972.31714"
+       x="18.82737"
+       style="font-size:22.36032677px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="972.31714"
+         x="18.82737"
+         id="tspan3982"
+         sodipodi:role="line">c</tspan></text>
+  </g>
+</svg>

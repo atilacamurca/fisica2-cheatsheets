@@ -9,6 +9,12 @@ São representados por segmentos orientados e são caracterizados por
 1. Direção
 1. Sentido
 
+O módulo de um vetor $\vec{u} = (u_1, u_2)$ é dado por:
+
+$$
+|\vec{u}| = \sqrt{u_1^2 + u_2^2}
+$$
+
 ## Soma de Vetores
 
 O resultado é um outro vetor com origem na origem do primeiro e extremidade
@@ -48,7 +54,7 @@ Seja $\alpha$ um número real não-nulo e $\vec{v}$ um vetor. Dizemos que $\alph
 2. Direção: mesma de $\vec{v}$
 3. Sentido:
 	* mesmo sentido de $\vec{v}$ se $\alpha > 0$
-    * sentido oposto caso contrário
+	* sentido oposto caso contrário
 
 ### Propriedades da multiplicação por escalar
 
@@ -98,6 +104,54 @@ Daí temos também que
 $$
 \cos \theta = \frac{\vec{v} \cdot \vec{w}}{|\vec{v}| |\vec{w}|}
 $$
+
+### Revisão: Trigonometria
+
+Para um triângulo retângulo como visto na figura:
+
+![Triângulo Retângulo](img/triangulo-retangulo.jpg "Triângulo Retângulo")
+
+Teorema de Pitágoras:
+
+$$
+a^2 = b^2 + c^2
+$$
+
+As funções seno e cosseno são definidas como:
+
+$$
+\sin \theta = \frac{c}{a} = \cos \alpha
+$$
+
+$$
+\cos \theta = \frac{b}{a} = \sin \alpha
+$$
+
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+
+### Direção de um Vetor Cartesiano 3D
+
+Seja um vetor $\vec{u} = (u_1, u_2, u_3)$. Para determinar o ângulo $\alpha$ que
+o vetor $\vec{u}$ faz com o $x$ basta fazer:
+
+$$
+\cos \alpha = \frac{u_1}{|\vec{u}|} = \frac{u_1}{\sqrt{u_1^2 + u_2^2 + u_3^2}}
+$$
+
+O mesmo vale para os outros eixos:
+
+$$
+\cos \beta = \frac{u_2}{|\vec{u}|}
+$$
+
+$$
+\cos \gamma = \frac{u_3}{|\vec{u}|}
+$$
+
+**OBS.:** para chegar a este resultado basta fazer o produto escalar de $\vec{u}$
+por um vetor unitário.
 
 ### Propriedades do Produto Escalar
 
@@ -151,7 +205,7 @@ $$
 
 ### Teorema 1
 
-Sejam $\vec{v} = (v_1, v_2, v_3)$ e $\vec{w} = (w_1, w_2, w_3) $. Então
+Sejam $\vec{v} = (v_1, v_2, v_3)$ e $\vec{w} = (w_1, w_2, w_3)$. Então
 
 $$
 \vec{v} \times \vec{w}

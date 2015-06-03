@@ -7,13 +7,13 @@ PANDOC := pandoc
 # pandoc options
 # Liberation fonts: http://en.wikipedia.org/wiki/Liberation_fonts
 PANDOC_PDF_OPTS := --toc --chapters --base-header-level=1 --number-sections --variable documentclass=book
-PANDOC_EBOOK_OPTS := -t epub3 --mathjax=MathJax.js --toc --epub-stylesheet=epub.css --epub-cover-image=cover.jpg --base-header-level=1
+PANDOC_EBOOK_OPTS := --webtex --toc --epub-stylesheet=epub.css --epub-cover-image=cover.jpg --base-header-level=1
 
 # download kindlegen from http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211
 KINDLEGEN := kindlegen
 KINDLEGEN_OPTS :=
 
-MARKDOWN := $(wildcard *.md)
+MARKDOWN := $(filter-out README.md, $(wildcard *.md))
 PDF := $(patsubst %.md,$(BUILD_DIR)/%.pdf,$(MARKDOWN))
 EBOOK := $(patsubst %.md,$(BUILD_DIR)/%.epub,$(MARKDOWN))
 DOCX := $(patsubst %.md,$(BUILD_DIR)/%.docx,$(MARKDOWN))
@@ -37,7 +37,7 @@ wiki: checkdirs $(WIKI)
 html: checkdirs $(HTML)
 
 $(BUILD_DIR):
-	@mkdir -p $@
+	@[ -d $@ ] || mkdir -p $@
 
 # generate PDF
 $(BUILD_DIR)/%.pdf: %.md
