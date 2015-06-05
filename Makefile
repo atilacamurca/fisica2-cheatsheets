@@ -7,6 +7,7 @@ PANDOC := pandoc
 # pandoc options
 # Liberation fonts: http://en.wikipedia.org/wiki/Liberation_fonts
 PANDOC_PDF_OPTS := --toc --chapters --base-header-level=1 --number-sections --variable documentclass=book
+PANDOC_PDF_KINDLE_OPTS := --toc --chapters --base-header-level=1 --number-sections --variable documentclass=book --variable classoption=a5paper --variable lang=brazilian --include-in-header kindle-pdf-header.tex
 PANDOC_EBOOK_OPTS := --webtex --toc --epub-stylesheet=epub.css --epub-cover-image=cover.jpg --base-header-level=1
 
 # download kindlegen from http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211
@@ -42,6 +43,7 @@ $(BUILD_DIR):
 # generate PDF
 $(BUILD_DIR)/%.pdf: %.md
 	$(PANDOC) $(PANDOC_PDF_OPTS) --self-contained -o $@ $<
+	$(PANDOC) $(PANDOC_PDF_KINDLE_OPTS) --self-contained -o $(@D)/kindle-$(@F) $<
 
 # generate both iBooks (.epub) and then Kindle (.mobi) formats
 $(BUILD_DIR)/%.epub: %.md

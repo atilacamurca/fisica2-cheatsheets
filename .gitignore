@@ -4,3 +4,4 @@
 *.aux
 *.pdf
 gen/
+node_modules/
