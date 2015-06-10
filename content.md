@@ -216,3 +216,79 @@ v_1 & v_2 & v_3 \\
 w_1 & w_2 & w_3
 \end{vmatrix}
 $$
+
+# Cargas Elétricas
+
+## Definições Gerais
+
+#### Condutores
+
+São materiais nos quais as cargas elétricas se movem com facilidade.
+
+#### Isolantes
+
+São materiais nos quais as cargas elétricas não podem se mover.
+
+#### Semicondutores
+
+São materiais com propriedades elétricas intermediárias entre as dos condutores e as dos isolantes.
+
+#### Supercondutores
+
+São condutores perfeitos, ou seja, em que as cargas se movem sem encontrar nenhuma resistência.
+
+#### Força eletroestática
+
+Força de repulsão ou atração associada à carga elétrica.
+
+Se as cargas das partículas tem o mesmo sinal, elas se repelem. Caso tenham sinais opostos, elas se atraem.
+
+## Lei de Coulomb
+
+Permite calcular a força exercida por partículas carregadas.
+
+$$
+\vec{F} = k \frac{q_1 \cdot q_2}{r^2} \hat{r}
+$$
+
+onde $\hat{r}$ é um vetor unitário na direção da reta que liga as duas partículas, $r$ é a distância entre as partículas e $k$ é uma constante, com valor $1/4 \pi \varepsilon_0$.
+
+Rescrevendo temos:
+
+$$
+F = \frac{1}{4 \pi \varepsilon_0} \frac{|q_1| \cdot |q_2|}{r^2}
+$$
+
+Podemos também substituir:
+
+$$
+k = \frac{1}{4 \pi \varepsilon_0} = 8,99 \times 10^9 N \cdot m^2/C^2
+$$
+
+A constante $\varepsilon_0$, conhecida como **permissividade do vácuo**, tem o valor:
+
+$$
+\varepsilon_0 = 8,85 \times 10^{-12} C^2/N \cdot m^2
+$$
+
+## Cascas Esféricas
+
+#### Teorema 1
+
+Uma casca com uma distribuição uniforme de carga atrai ou repele uma partícula carregada situada do lado de fora da casca como se toda a carga da casca estivesse situada no centro.
+
+#### Teorema 2
+
+Se uma partícula carregada está situada no interior de uma casca com uma distribuição uniforme de carga, a casca não exerce nehuma força eletroestática sobre a partícula.
+
+## Quantidade de carga
+
+$$
+q = n \cdot e
+$$
+
+onde $e$, a **carga elementar**, tem valor aproximado
+
+$$
+e = 1,602 \times 10^{-19} C
+$$
