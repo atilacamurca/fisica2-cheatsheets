@@ -292,3 +292,36 @@ onde $e$, a **carga elementar**, tem valor aproximado
 $$
 e = 1,602 \times 10^{-19} C
 $$
+
+# Campo Elétrico
+
+## Carga de Prova
+
+#### Definição
+
+É uma carga imaginária de tamanho infinitesimal que não gera campo e é
+sempre positiva.
+
+## Direção do campo
+
+#### Afastamento
+
+Se ao colocar uma carga de prova aparecer uma força de afastamento.
+
+#### Atração
+
+Se ao colocar uma carga de prova aparecer uma força de atração.
+
+## Intensidade (Módulo) do Campo
+
+é definido como o quociente entre as forças de interação das cargas geradora
+do campo ($Q$) e de prova ($q$) e a própria carga de prova ($q$), ou seja:
+
+$$
+E = \frac{F}{q} \Rightarrow \frac{k \cdot \frac{Q \cdot q}{d^2}}{q}
+  \Rightarrow k \cdot \frac{Q}{d^2}
+$$
+
+#### Unidade
+
+N/C - Newton por Coulomb
