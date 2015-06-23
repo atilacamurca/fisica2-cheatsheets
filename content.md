@@ -105,32 +105,6 @@ $$
 \cos \theta = \frac{\vec{v} \cdot \vec{w}}{|\vec{v}| |\vec{w}|}
 $$
 
-### Revisão: Trigonometria
-
-Para um triângulo retângulo como visto na figura:
-
-![Triângulo Retângulo](img/triangulo-retangulo.jpg "Triângulo Retângulo")
-
-Teorema de Pitágoras:
-
-$$
-a^2 = b^2 + c^2
-$$
-
-As funções seno e cosseno são definidas como:
-
-$$
-\sin \theta = \frac{c}{a} = \cos \alpha
-$$
-
-$$
-\cos \theta = \frac{b}{a} = \sin \alpha
-$$
-
-$$
-\sin^2 \theta + \cos^2 \theta = 1
-$$
-
 ### Direção de um Vetor Cartesiano 3D
 
 Seja um vetor $\vec{u} = (u_1, u_2, u_3)$. Para determinar o ângulo $\alpha$ que
@@ -325,3 +299,122 @@ $$
 #### Unidade
 
 N/C - Newton por Coulomb
+
+## Dipolo elétrico
+
+é formado por duas partículas com cargas de mesmo valor	absoluto $q$ e sinais
+opostos, separadas por uma pequena distância $d$.
+
+O módulo do campo elétrico de um dipolo em um ponto distante sobre o eixo
+do dipolo é dado por:
+
+$$
+E = \frac{1}{2 \pi \varepsilon_0} \frac{p}{z^3}
+$$
+
+onde $p = q \cdot d$, e $z$ é a distância entre o ponto e o centro do dipolo.
+
+## Campo elétrico produzido por uma linha de cargas
+
+#### Módulo de uma anel carregado
+
+$$
+E = \frac{q \cdot z}{4 \pi \varepsilon_0 (z^2 + R^2)^\frac{3}{2}}
+$$
+
+onde $z$ é a distância entre o centro do anel ao ponto $P$. O raio do anel
+é $R$.
+
+#### Módulo de um disco carregado
+
+$$
+E = \frac{\sigma}{2 \varepsilon_0}(1 - \frac{z}{\sqrt{z^2 + R^2}})
+$$
+
+onde $\sigma$ é a carga por unidade de área, e $z$ é a distância entre o centro
+do disco ao ponto $P$. O raio do disco é $R$.
+
+# Apêndice A
+
+## Comprimento, Área e Volume
+
+#### Comprimento do círculo
+
+$$
+C = 2 \cdot \pi \cdot r
+$$
+
+#### Área do círculo
+
+$$
+A = \pi \cdot r^2
+$$
+
+#### Área do trapézio
+
+$$
+A = \frac{h \cdot (B + b)}{2}
+$$
+
+#### Volume da esfera
+
+$$
+V = \frac{4 \cdot \pi r^3}{3}
+$$
+
+#### Volume do cubo
+
+$$
+V = a^3 \text{\, onde $a$ é a aresta}
+$$
+
+#### Volume do cone circular reto
+
+$$
+V = \frac{\pi \cdot r^2 \cdot h}{3}
+$$
+
+#### Volume da pirâmide
+
+$$
+V = \frac{A_b \cdot h}{3} \text{\, onde $A_b$ é a área da base}
+$$
+
+## Trigonometria
+
+Relações trigonométricas seno, cosseno e tangente.
+
+----------------------------------------------------------------------------------------
+&nbsp;              30                         45                       60
+----------  ------------------------  ------------------------  ------------------------
+seno           $\frac{1}{2}$            $\frac{\sqrt{2}}{2}$     $\frac{\sqrt{3}}{2}$
+
+cosseno       $\frac{\sqrt{3}}{2}$      $\frac{\sqrt{2}}{2}$      $\frac{1}{2}$
+
+tangente      $\frac{\sqrt{3}}{3}$      $1$                       $\sqrt{3}$
+----------------------------------------------------------------------------------------
+
+Para um triângulo retângulo como visto na figura:
+
+![Triângulo Retângulo](img/triangulo-retangulo.jpg "Triângulo Retângulo")
+
+Teorema de Pitágoras:
+
+$$
+a^2 = b^2 + c^2
+$$
+
+As funções seno e cosseno são definidas como:
+
+$$
+\sin \theta = \frac{\text{CO}}{\text{H}} = \frac{c}{a} = \cos \alpha
+$$
+
+$$
+\cos \theta = \frac{\text{CA}}{\text{H}} = \frac{b}{a} = \sin \alpha
+$$
+
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+
